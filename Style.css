@@ -25,6 +25,17 @@
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
   }
+
+  .live-video {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0px 2%;
+  transition-delay: 0.1s ease-in-out;
+}
+  
 }
 
 @media (max-width: 700px) {
